@@ -1,0 +1,185 @@
+nav{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#submitbtn{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#btn2{
+    background-color: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 25px;
+}
+
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 72px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-top: 40px;
+        width: 50%;
+        height: 100%;
+        background: #C9FFBF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+
+    #meetingtext{
+        font-size: 14px;
+    }
+
+    #item-hl{
+        font-size: 15px;
+        background-color: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 3px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 20px;
+        font-family : 'Times New Roman', Times, serif;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 700ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 700ms ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .nav-item .nav-link {
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 20px;
+        color: white;
+    }
+
+    .nav-link:hover{
+        font-size: 25px;
+        border-bottom: 3px solid white;
+    }
+    #home1:hover{
+        font-size: 25px;
+        border-bottom: 3px solid white;
+    }
+
+    #item-hl{
+        font-size: 15px;
+        background-color: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 3px;
+    }
+
+     
+}
+
+
+#hello{
+    color: red;
+    margin-top : 50px;
+}
+
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown-item{
+   color: black;
+   font-family : 'Times New Roman', Times, serif;
+}
+#navbarcolor{
+    background: #C9FFBF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#fa1{
+     font-size: 30px;
+     color:white
+}
+
+#showcase {
+    position: relative;
+    background: url("img/background1.JPG") center center no-repeat;
+    background-size: cover;
+    min-height: 530px;
+    }
+ #showcase .primary-overlay {
+     
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      }
+
+      .aqua{
+          background-color: red;
+      }
+      .aqua1{
+        background-color: white;
+    }
+  #thirdsec{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    min-height: 300px;
+  }
+
+  #blogimg1{
+    background-color: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #footer{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 220px;
+    
+  }
+
+  #showcase1 {
+    position: relative;
+    background: url("img/background1.JPG") center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    }
+ #showcase1 .primary-overlay1 {
+     
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      }
